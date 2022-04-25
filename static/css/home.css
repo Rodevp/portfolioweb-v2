@@ -140,7 +140,6 @@
     font-family: var(--font);
 }
 
-
 /*animation for letter */
 @keyframes moveLetter {
     0% {
@@ -150,7 +149,6 @@
         transform: translateY(0) rotate(10deg);
     }    
 }
-
 
 @media screen and (min-width: 420px) {
     .content__img_me {
@@ -163,7 +161,6 @@
         width: 52%;
     }   
 }
-
 
 @media screen and (min-width: 620px) {
     .content__img_me {
@@ -202,6 +199,12 @@
     }
     .points, .navigator {
         width: 15%;
+    }
+    .me__name {
+        font-size: 1.6rem;
+    }
+    .me__name > span {
+        font-size: 1.8rem;
     }
 }
 
