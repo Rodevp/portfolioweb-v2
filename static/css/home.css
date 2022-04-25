@@ -31,10 +31,10 @@
 .intro {
     width: 90%;
     margin-top: 30px;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--border-color);
+    border: 1.5px solid var(--border-color);
 }
 
 .header {
@@ -169,11 +169,24 @@
     .content__img_me {
         width: 42%;
     }
+    .point__red, .point__yellow, .point__green {
+        width: 20px;
+        height: 20px;
+    }
+    .points, .navigator {
+        width: 25%;
+    }
+    .navigator > a {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (min-width: 720px) {
     .content__img_me {
         width: 35%;
+    }
+    .points, .navigator {
+        width: 20%;
     }
 }
 
@@ -187,11 +200,17 @@
     .content__img_me {
         width: 52%;
     }
+    .points, .navigator {
+        width: 15%;
+    }
 }
 
 @media screen and (min-width: 1020px) {
     .content__img_me {
         width: 42%;
+    }
+    .points, .navigator {
+        width: 10%;
     }
 }
 
