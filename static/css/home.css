@@ -207,6 +207,58 @@
     background-color: var(--secondary-color);
 }
 
+.projects {
+    width: 90%;
+    padding: 1em;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-color);
+}
+
+.projects_no_demo {
+    width: 90%;
+    padding: 1em;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+}
+
+.projects__link_demo {
+    width: 90%;
+    padding: 0.5em;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-family: var(--font);
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid var(--border-color);
+    color: var(--secondary-color);
+    background-color: var(--blue-color);
+}
+
+.project_demo {
+    width: 90%;
+    padding: 1em;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+}
+
+.title__project_demo {
+    color: var(--blue-color);
+}
+
+.title__project_demo, .descrip__project,
+.view__demo_link {
+    font-family: var(--font);
+}
+
 /*animation for letter */
 @keyframes moveLetter {
     0% {
