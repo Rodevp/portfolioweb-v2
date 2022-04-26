@@ -18,8 +18,6 @@
 }
 
 .main__home {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,6 +138,62 @@
     font-family: var(--font);
 }
 
+/*about me*/
+
+.about__me {
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border: 1.5px solid var(--border-color);
+}
+
+.about__me_title {
+    width: 60%;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-family: var(--font);
+    text-align: center;
+}
+
+.about__me_descrip {
+    width: 90%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--font);
+}
+
+.about__me_social_network {
+    width: 90%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.network__item {
+    width: 45%;
+    padding: 0.5em;
+    font-size: 1rem;
+    font-family: var(--font);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.linkedin {
+    background-color: var(--blue-color);
+}
+
+.github {
+    background-color: #010409;
+}
+
 /*animation for letter */
 @keyframes moveLetter {
     0% {
@@ -202,7 +256,7 @@
         width: 80%;
         height: 200px;
         position: relative;
-        background-color: rebeccapurple;
+        background-color: #2b202f;
     }
 
     .preview {
@@ -217,7 +271,9 @@
         top: 20px;
         left: 60px;
         z-index: 3;
-        background-color: red;
+        border: 1.5px solid #17a2b8;
+        color: #ffffff;
+        background-color: rgb(29, 21, 32, 0.8);
     }
 
     .preview__title, .preview__text {
@@ -246,6 +302,9 @@
     .me__name > span {
         font-size: 1.8rem;
     }
+    .network__item {
+        width: 35%;
+    }
 }
 
 @media screen and (min-width: 1020px) {
@@ -263,6 +322,12 @@
     }
     .preview {
         width: 110%;
+    }
+    .about__me_social_network {
+        width: 60%;
+    }
+    .network__item {
+        width: 30%;
     }
 }
 
