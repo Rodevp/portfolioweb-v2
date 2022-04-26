@@ -194,6 +194,19 @@
     background-color: #010409;
 }
 
+/*projects*/
+.title__project {
+    width: 90%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: var(--font);
+    text-align: center;
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-color);
+}
+
 /*animation for letter */
 @keyframes moveLetter {
     0% {
@@ -304,6 +317,9 @@
     }
     .network__item {
         width: 35%;
+    }
+    .title__project {
+        font-size: 1.4rem;
     }
 }
 
